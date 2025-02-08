@@ -1,14 +1,30 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Navbar() {
-  return(<>
-      <nav class="navbar bg-body-tertiary">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="src\assets\react.svg" alt="Bootstrap" width="30" height="24"/>
-        </a>
+  return (
+    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div className="container-fluid"> 
+        <div className="d-flex">
+          <a 
+            className="nav-link px-2" 
+            href="https://github.com/aesmith573" 
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub size={30} />
+          </a>
+          <a 
+            className="nav-link px-2" 
+            href="https://www.linkedin.com/in/andrew-smith-4940001a7/"
+            target="_blank"
+            rel="noopener noreferrer" //prevents access of window.opener property
+          >
+            <FaLinkedin size={30} />
+          </a>
+        </div>
       </div>
     </nav>
-  </>)
+  )
 }
 
 export default Navbar;
