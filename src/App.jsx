@@ -1,3 +1,4 @@
+import Project from './components/Project.jsx';
 
 function App() {
 
@@ -5,6 +6,7 @@ function App() {
     <>
       <p>
         Hello World!
+        <Project/>
       </p>
     </>
   )
