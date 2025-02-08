@@ -4,10 +4,8 @@ function App() {
 
   return (
     <>
-      <p>
         Hello World!
         <Project/>
-      </p>
     </>
   )
 }
