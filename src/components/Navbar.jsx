@@ -12,7 +12,7 @@ function Navbar() {
       <div className="container-fluid"> 
         <div className="d-flex">
           <a 
-            className="nav-link px-2" 
+            className="nav-link px-2 me-2" 
             href="https://www.linkedin.com/in/andrew-smith-4940001a7/"
             target="_blank"
             rel="noopener noreferrer" //prevents access of window.opener property
