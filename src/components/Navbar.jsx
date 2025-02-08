@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <nav className="navbar navbar-expand-lg fixed-top" style={{ backgroundColor: '#f8f9fa' }}>
       <div className="container-fluid"> 
         <div className="d-flex">
           <a 
