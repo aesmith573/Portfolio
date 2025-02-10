@@ -5,7 +5,7 @@ function Navbar() {
     <nav 
       className="navbar navbar-expand-lg fixed-top" 
       style={{ 
-        backgroundColor: '#215fc2',
+        backgroundColor: '#222E50',
         boxShadow: '0 2px 4px rgba(0,0,0,.1)',
         minHeight: '60px' 
       }}>
