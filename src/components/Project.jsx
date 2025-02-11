@@ -1,5 +1,4 @@
 
-
 function Project(props) {
   return(
     <div className="card m-4 p-1" style={{ width: "22rem" }} >
