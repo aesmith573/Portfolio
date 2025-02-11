@@ -11,6 +11,7 @@ function App() {
     <>
       <Navbar />
       <AboutMe />
+      <h1 className='projects'>PROJECTS</h1>
       <div className='container'>
         <div className='row justify-content-evenly'>
           <div className='col-md-6 col-lg-4'>
