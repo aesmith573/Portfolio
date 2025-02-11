@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import transmngment from './assets/projects/transmngment.png';
 import PutMeOn from './assets/projects/PutMeOn.png';
+import pmoCrop from './assets/projects/pmoCrop.gif';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <div className='col-md-6 col-lg-4'>
             <Project
               cardImage={PutMeOn}
+              cardGif={pmoCrop}
               cardTitle={"PutMeOn"}
               cardDescription= {
                 "Worked with a team of developers for my senior capstone project." +
